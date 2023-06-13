@@ -66,5 +66,4 @@ class FileStorage:
 
     def close(self):
         """Deserialize the JSON file to objects"""
-t pull
-self.reload()
+        self.reload()
