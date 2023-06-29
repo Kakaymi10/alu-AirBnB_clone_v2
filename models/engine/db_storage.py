@@ -18,7 +18,7 @@ class DBStorage:
     __session = None
     
     def close(self):
-      self.__session.remove()
+        self.__session.remove()
 
     """
     To set the environment variables, depending on your operating system:
