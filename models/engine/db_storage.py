@@ -16,7 +16,6 @@ class DBStorage:
     """Represents database storage"""
     __engine = None
     __session = None
-    
     def close(self):
         self.__session.remove()
 
